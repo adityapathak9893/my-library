@@ -1,0 +1,11 @@
+.inputWrapper {
+    width: 500px;
+}
+
+.searchComponentWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lavender;
+    flex: 1;
+}
