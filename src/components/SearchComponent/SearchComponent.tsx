@@ -1,7 +1,7 @@
 import React, { FC, useEffect, useState } from "react";
 import "./SearchComponent.css";
 import { Input } from "antd";
-import { useActionDispatch, useStateSelector } from "../../hooks";
+import { useActionDispatch } from "../../hooks";
 
 export const SearchComponent: FC = () => {
   const { getBooksDetailsData } = useActionDispatch();
